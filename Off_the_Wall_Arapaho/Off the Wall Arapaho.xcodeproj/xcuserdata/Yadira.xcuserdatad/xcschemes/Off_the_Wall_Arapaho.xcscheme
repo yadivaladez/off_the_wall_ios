@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
-               BuildableName = "Off_the_Wall_Arapaho.app"
-               BlueprintName = "Off_the_Wall_Arapaho"
-               ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+               BuildableName = "Off the Wall Arapaho.app"
+               BlueprintName = "Off the Wall Arapaho"
+               ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BF32BF1E3015400030E2C2"
-               BuildableName = "Off_the_Wall_ArapahoTests.xctest"
-               BlueprintName = "Off_the_Wall_ArapahoTests"
-               ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+               BuildableName = "Off the Wall ArapahoTests.xctest"
+               BlueprintName = "Off the Wall ArapahoTests"
+               ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BF32CA1E3015400030E2C2"
-               BuildableName = "Off_the_Wall_ArapahoUITests.xctest"
-               BlueprintName = "Off_the_Wall_ArapahoUITests"
-               ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+               BuildableName = "Off the Wall ArapahoUITests.xctest"
+               BlueprintName = "Off the Wall ArapahoUITests"
+               ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
-            BuildableName = "Off_the_Wall_Arapaho.app"
-            BlueprintName = "Off_the_Wall_Arapaho"
-            ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+            BuildableName = "Off the Wall Arapaho.app"
+            BlueprintName = "Off the Wall Arapaho"
+            ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
-            BuildableName = "Off_the_Wall_Arapaho.app"
-            BlueprintName = "Off_the_Wall_Arapaho"
-            ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+            BuildableName = "Off the Wall Arapaho.app"
+            BlueprintName = "Off the Wall Arapaho"
+            ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
-            BuildableName = "Off_the_Wall_Arapaho.app"
-            BlueprintName = "Off_the_Wall_Arapaho"
-            ReferencedContainer = "container:Off_the_Wall_Arapaho.xcodeproj">
+            BuildableName = "Off the Wall Arapaho.app"
+            BlueprintName = "Off the Wall Arapaho"
+            ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
