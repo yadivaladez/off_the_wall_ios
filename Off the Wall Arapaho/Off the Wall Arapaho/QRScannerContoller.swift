@@ -11,7 +11,7 @@ import AVFoundation
 
 class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
-    @IBOutlet var messageLabel:UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet var topbar: UIView!
     
     var captureSession:AVCaptureSession?
