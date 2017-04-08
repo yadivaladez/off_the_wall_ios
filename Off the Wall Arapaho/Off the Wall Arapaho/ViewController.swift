@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Off_the_Wall_Arapaho
+//  Off the Wall Arapaho
 //
-//  Created by Yadira Valadez on 1/18/17.
+//  Created by Yadira Valadez on 4/8/17.
 //  Copyright © 2017 Yadira Valadez. All rights reserved.
 //
 

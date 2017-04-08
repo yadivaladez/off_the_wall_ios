@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
+               BlueprintIdentifier = "0145DC591E998E5500784FBD"
                BuildableName = "Off the Wall Arapaho.app"
                BlueprintName = "Off the Wall Arapaho"
                ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01BF32BF1E3015400030E2C2"
+               BlueprintIdentifier = "0145DC701E998E5500784FBD"
                BuildableName = "Off the Wall ArapahoTests.xctest"
                BlueprintName = "Off the Wall ArapahoTests"
                ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01BF32CA1E3015400030E2C2"
+               BlueprintIdentifier = "0145DC7B1E998E5500784FBD"
                BuildableName = "Off the Wall ArapahoUITests.xctest"
                BlueprintName = "Off the Wall ArapahoUITests"
                ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
+            BlueprintIdentifier = "0145DC591E998E5500784FBD"
             BuildableName = "Off the Wall Arapaho.app"
             BlueprintName = "Off the Wall Arapaho"
             ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
+            BlueprintIdentifier = "0145DC591E998E5500784FBD"
             BuildableName = "Off the Wall Arapaho.app"
             BlueprintName = "Off the Wall Arapaho"
             ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01BF32AB1E30153F0030E2C2"
+            BlueprintIdentifier = "0145DC591E998E5500784FBD"
             BuildableName = "Off the Wall Arapaho.app"
             BlueprintName = "Off the Wall Arapaho"
             ReferencedContainer = "container:Off the Wall Arapaho.xcodeproj">

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Off_the_Wall_Arapaho.xcscheme</key>
+		<key>Off the Wall Arapaho.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>01BF32AB1E30153F0030E2C2</key>
+		<key>0145DC591E998E5500784FBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>01BF32BF1E3015400030E2C2</key>
+		<key>0145DC701E998E5500784FBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>01BF32CA1E3015400030E2C2</key>
+		<key>0145DC7B1E998E5500784FBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
