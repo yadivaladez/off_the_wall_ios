@@ -13,8 +13,9 @@ import AVFoundation
 class DisplayContentController: UIViewController,AVAudioPlayerDelegate {
 
     var audioPlayer: AVAudioPlayer?
+    var data : String = ""
 
-func playAudio(_ sender: AnyObject) {
+@IBAction func playAudio(_ sender: AnyObject) {
     if let player = audioPlayer {
         player.play()
     }
@@ -24,7 +25,7 @@ override func viewDidLoad() {
     super.viewDidLoad()
     
     let url = URL.init(fileURLWithPath: Bundle.main.path(
-        forResource: "What do you want to eat",
+        forResource: "1 What do you want to eat",
         ofType: "mp3")!)
     
     do {

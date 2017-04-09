@@ -13,6 +13,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
     @IBOutlet weak var messageLabel: UILabel!
     
+    @IBOutlet weak var scanQRLabel: UILabel!
     var audioPlayer: AVAudioPlayer?
     var captureSession:AVCaptureSession?
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
@@ -28,7 +29,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
                               AVMetadataObjectTypeAztecCode,
                               AVMetadataObjectTypePDF417Code,
                               AVMetadataObjectTypeQRCode]
-    
+
     func playAudio(_ sender: AnyObject) {
         if let player = audioPlayer {
             player.play()}
@@ -39,6 +40,8 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
+
         
         
         // Get an instance of the AVCaptureDevice class to initialize a device object and provide the video as the media type parameter.
@@ -105,7 +108,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         // Check if the metadataObjects array is not nil and it contains at least one object.
         if metadataObjects == nil || metadataObjects.count == 0 {
             qrCodeFrameView?.frame = CGRect.zero
-            messageLabel.text = "No QR/barcode is detected"
+            messageLabel.text = "No QR Code is detected"
             return
         }
         
@@ -118,16 +121,41 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             qrCodeFrameView?.frame = barCodeObject!.bounds
             
             if metadataObj.stringValue != nil {
-                messageLabel.text = metadataObj.stringValue}
+                messageLabel.text = metadataObj.stringValue
+                
+                if messageLabel.text == "qa0001"{
+                    //performSegue(withIdentifier: "test", sender: self)
+                    let url = URL.init(fileURLWithPath: Bundle.main.path(
+                        forResource: "1 What do you want to eat",
+                        ofType: "mp3")!)
+                    
+                    do {
+                        try audioPlayer = AVAudioPlayer(contentsOf: url)
+                        audioPlayer?.delegate = self
+                        audioPlayer?.prepareToPlay()
+                    } catch let error as NSError {
+                        print("audioPlayer error \(error.localizedDescription)")
+                    }
+                }
             
-            if messageLabel.text == "qa0001"{
-               
+            
+            
             }
             
                 
-            }
-            
         }
+        
+        
+        
+        }
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "test"{
+            let vc = segue.destination as! DisplayContentController
+            vc.data = "Data you want to pass"
+            //Data has to be a variable name in your DisplayContentController
+        }*/
+    
     }
+
     
 
