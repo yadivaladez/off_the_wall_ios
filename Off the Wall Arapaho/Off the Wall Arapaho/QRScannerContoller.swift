@@ -13,6 +13,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
     @IBOutlet weak var messageLabel: UILabel!
     
+    var audioPlayer: AVAudioPlayer?
     var captureSession:AVCaptureSession?
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
     var qrCodeFrameView:UIView?
@@ -28,8 +29,17 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
                               AVMetadataObjectTypePDF417Code,
                               AVMetadataObjectTypeQRCode]
     
+    func playAudio(_ sender: AnyObject) {
+        if let player = audioPlayer {
+            player.play()}
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // Get an instance of the AVCaptureDevice class to initialize a device object and provide the video as the media type parameter.
         let captureDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
@@ -108,9 +118,16 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             qrCodeFrameView?.frame = barCodeObject!.bounds
             
             if metadataObj.stringValue != nil {
-                messageLabel.text = metadataObj.stringValue
+                messageLabel.text = metadataObj.stringValue}
+            
+            if messageLabel.text == "qa0001"{
+               
             }
+            
+                
+            }
+            
         }
     }
     
-}
+

@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Off the Wall Arapaho/DisplayContentController.swift"
+            timestampString = "513442915.127077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "playAudio(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Off_the_Wall_Arapaho.DisplayContentController.playAudio (Swift.AnyObject) -&gt; ()"
+                  moduleName = "Off the Wall Arapaho"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Yadira/Desktop/off_the_wall_ios/Off%20the%20Wall%20Arapaho/Off%20the%20Wall%20Arapaho/DisplayContentController.swift"
+                  timestampString = "513442917.387655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Off_the_Wall_Arapaho.DisplayContentController.playAudio (Swift.AnyObject) -&gt; ()"
+                  moduleName = "Off the Wall Arapaho"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Yadira/Desktop/off_the_wall_ios/Off%20the%20Wall%20Arapaho/Off%20the%20Wall%20Arapaho/DisplayContentController.swift"
+                  timestampString = "513442917.394849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
